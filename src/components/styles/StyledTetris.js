@@ -3,9 +3,10 @@ import styled from 'styled-components';
 export const StyledTetrisWrapper = styled.div`
     width: 100vh;
     height: 100vh;
-    background-color: black;
+    background: #000;
+    background-size: cover;
     overflow: hidden;
-`
+`;
 
 export const StyledTetris = styled.div`
     display: flex;
@@ -20,4 +21,4 @@ export const StyledTetris = styled.div`
         diplay: block;
         padding: 0 20px;
     }
-`
+`;
